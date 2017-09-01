@@ -1,0 +1,111 @@
+
+@font-face {
+    font-family: Bebas Neue;
+    src: users/mazza/ibrary/fonts;
+}
+
+@font-face {
+    font-family: My Font;
+    src: users/mazza/ibrary/fonts;
+}
+
+* {
+  margin: 0px;
+}
+
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: helvetica;
+}
+
+.header {
+  background-color: #ffff;
+  text-align: center;
+  font-family: My Font;
+  height: 115px;
+  padding-top: 0px;
+
+
+}
+
+#navbar {
+  list-style: none;
+  display: inline-block;
+}
+
+.navi {
+  display: inline-block;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+  font-size: 35px;
+  position: relative;
+  top: 10px;
+  border-bottom: 1px solid black;
+
+}
+
+
+.content {
+  height: 720px;
+}
+
+
+
+.footnavi {
+  display: inline-block;
+padding-left: 30px;
+padding-right: 50px;
+  list-style: none;
+  position: relative;
+top: -8px;
+}
+
+.footer {
+  padding-top: 16px;
+  height: 40px;
+  background-color: #faf7f7;
+  position: relative;
+  font-size: 30px;
+  font-family: My Font;
+  border-top: 1px solid black;
+
+}
+
+#copyright {
+  display: inline-block;
+  list-style: none;
+  padding-left: 800px;
+  position: relative;
+  top: -8px;
+}
+
+#logoheader {
+  display: inline;
+  width: 210px;
+  height: 140px;
+position: relative;
+margin-right: 1400px;
+top: -95px;
+left: 15px;
+
+}
+
+#carticon {
+  width: 65px;
+  height: 65px;
+  position: relative;
+  bottom: 210px;
+  left: 650px;
+
+
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
